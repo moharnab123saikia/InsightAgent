@@ -45,7 +45,7 @@ sudo yum install collectd
 ```
 cpu, csv, disk, interface, load, memory, processes
 ```
-- The following lines in the collectd.conf should be uncommented. See sample configuration file "collectdsample.conf" for example.
+- The configuration is located in /etc/collectd.conf or /etc/collectd/collectd.conf depending on installed package. The following lines in the collectd.conf should be uncommented. See sample configuration file "collectdsample.conf" for example.
 ```
 Interval 60
 LoadPlugin cpu
